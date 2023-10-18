@@ -10,6 +10,13 @@
     
 </head>
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Book Appointment</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
     <main>
         <header>Car Wash</header>
         <div class="login-container">

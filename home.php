@@ -7,6 +7,22 @@
     <title>Home</title>
 </head>
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Book Appointment</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header>Car Wash</header>
+        <div class="Home">
+            <button>Book Appointment</button>
+            <button>Change Appointment</button>
+            <button>Check availability</button>
+            
+        </div>
+    </main>
     
 </body>
 </html>
