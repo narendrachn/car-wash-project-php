@@ -40,3 +40,13 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+.selector {
+    display: inline-block;
+    margin: 10px;
+}
+
+select {
+    padding: 5px;
+}
