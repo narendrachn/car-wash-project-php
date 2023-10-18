@@ -8,3 +8,17 @@ header{
     font-size: 48px;
 }
 
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #888;
+}
+
+h2 {
+    text-align: center;
+}
+
