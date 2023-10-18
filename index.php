@@ -14,7 +14,7 @@
         <header>Car Wash</header>
         <div class="login-container">
         <h2>Login</h2>
-        <form method="post" action="login_process.php">
+        <form method="post" action>
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             <input type="submit" value="Login">
