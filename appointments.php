@@ -10,8 +10,9 @@
     <nav>
         <ul class="menu">
             <li><a href="home.php">Home</a></li>
-            <li><a href="#">Book Appointment</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#">Appointments</a></li>
+            <li><a href="payment.php">Payment</a></li>
+            <li><a href="status.php">Status</a></li>
         </ul>
     </nav>
     <main>
@@ -33,6 +34,7 @@
             <option value="15:30:00">03:30 PM</option>
            
         </select>
+        <button type="submit"><a href="payment.php">Submit</a></button>
     </div>
     </main>
 </body>
