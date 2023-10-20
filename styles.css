@@ -7,6 +7,11 @@ body {
 header{
     font-size: 48px;
 }
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    align-items: right;
+}
 
 .login-container {
     width: 400px;
