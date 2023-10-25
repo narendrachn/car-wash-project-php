@@ -16,7 +16,19 @@
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
-        
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+    
+        $sql = "UPDATE users SET name='$name', contact='$contact' WHERE email='$email'";
+    
+        if ($conn->query($sql) === TRUE) {
+            echo "Profile updated successfully!";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    
+        $conn->close();
     }
 
 
