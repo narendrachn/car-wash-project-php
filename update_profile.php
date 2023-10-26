@@ -5,7 +5,7 @@
         $email = $_POST["email"];
         $contact = $_POST["contact"];
 
-        // TODO: Perform input validation and security checks
+        // Perform input validation and security checks
 
         // Update the user's profile in the database (example: MySQL)
         // Replace with your actual database connection and SQL query

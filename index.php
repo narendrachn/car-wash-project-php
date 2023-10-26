@@ -16,16 +16,18 @@
             <li><a href="appointments.php">Appointments</a></li>
             <li><a href="payment.php">Payment</a></li>
             <li><a href="status.php">Status</a></li>
+            <li><a href="register.html">register</a></li>
+            <li><a href="profile.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
         <header>Car Wash</header>
         <div class="login-container">
         <h2>Login</h2>
-        <form method="post" action>
+        <form method="post" action="home.php">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" value="Login">
+            <input type="submit" value="Login" href="">
         </form>
     </div>
     </main>
