@@ -13,7 +13,7 @@
     <nav>
         <ul class="menu">
             <li><a href="home.php">Home</a></li>
-            <li><a href="#">Book Appointment</a></li>
+            <li><a href="#">Appointment</a></li>
             <li><a href="#">About Us</a></li>
         </ul>
     </nav>

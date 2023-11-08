@@ -9,10 +9,10 @@
 
         // Update the user's profile in the database (example: MySQL)
         // Replace with your actual database connection and SQL query
-        $servername = "your_servername";
-        $username = "your_username";
-        $password = "your_password";
-        $dbname = "your_database";
+        $servername = "localhost";
+        $username = "narendrachowdary";
+        $password = "Narendra999@";
+        $dbname = "username";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
