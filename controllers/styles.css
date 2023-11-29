@@ -4,7 +4,8 @@ body {
     background-color: #f4f4f4;
     display: block;
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-image: url("../images/AdobeStock_138632152_Preview.jpeg");
 
 }
 header{
