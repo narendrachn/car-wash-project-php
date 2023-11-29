@@ -6,10 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
 
-    $servername = "your_servername";
-    $username = "your_username";
-    $password = "your_password";
-    $dbname = "your_database";
+    $servername = "localhost";
+    $username = "narendrachowdary";
+    $password = "Narendra999";
+    $dbname = "mysql.user-database";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
