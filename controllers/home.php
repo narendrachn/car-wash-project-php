@@ -1,6 +1,6 @@
 <?php 
-
-  require "../views/home.view.php";
+  require ('variable.php');
+  require $proj_root."home.view.php";
 
 
 ?>

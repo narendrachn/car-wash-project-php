@@ -1,1 +1,1 @@
-<?php require ('../views/profile.view.php') ?>
+<?php require ($proj_root.'profile.view.php') ?>
