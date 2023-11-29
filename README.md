@@ -13,9 +13,8 @@ This is the repository that holds my PhP project for fall 2023.
 Schedule for implementing above features.
 By the next week i.e., 22nd November i want to fix my errors and issues with the project and make it perfect to work in any situation.
 Following second week from now i.e. by 29th November i want to the implementing the features for the project.
-![image](https://github.com/narendrachn/car-wash-project-php/assets/109662555/a7ce986f-6232-4b85-9a96-099fd93288a4)
 
-
+# Milestone 4
 1.	In final project I am getting issues with database accessing and updating it through server, I have spent lot of time and asked my colleagues to track my problem and it ended in a unsolved end and this is my main problem in the project,
 2.	The feature that I want to implement in this milestone-4 is sending text message to the user who booked appointment with his details but unfortunately I am unable to complete it as it’s a lengthy process and breaking my app actual functioning.
 3.	I am able complete this project by the due date and I will try my hard best to resolve the issues and make it work to get positive results and have good patience with the project to get it odne by the due date.
