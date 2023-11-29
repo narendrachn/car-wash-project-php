@@ -5,7 +5,7 @@
     <?php require ('partials/header.php')?>
     <div class="login-container">
         <h2>Login</h2>
-        <form method="post" action="login_update.php">
+        <form method="post" action="../login-update.php">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             <input type="submit" value="Login" href="">
