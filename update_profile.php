@@ -11,8 +11,8 @@
         // Replace with your actual database connection and SQL query
         $servername = "localhost";
         $username = "narendrachowdary";
-        $password = "Narendra999@";
-        $dbname = "username";
+        $password = "Narendra999";
+        $dbname = "mysql.user-database";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
