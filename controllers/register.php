@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "narendrachowdary";
     $password = "Narendra999";
-    $dbname = "mysql.user-database";
+    $dbname = "mysql";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
+    $sql = "INSERT INTO user_database (name, email, password) VALUES ('$name', '$email', '$password')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Registration successful!";

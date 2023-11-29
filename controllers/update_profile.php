@@ -12,7 +12,7 @@
         $servername = "localhost";
         $username = "narendrachowdary";
         $password = "Narendra999";
-        $dbname = "mysql.user-database";
+        $dbname = "mysql";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -20,7 +20,7 @@
             die("Connection failed: " . $conn->connect_error);
         }
     
-        $sql = "UPDATE users SET name='$name', contact='$contact' WHERE email='$email'";
+        $sql = "UPDATE user_database SET name='$name', contact='$contact' WHERE email='$email'";
     
         if ($conn->query($sql) === TRUE) {
             echo "Profile updated successfully!";

@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $hashed_password = password_hash($password . $id, PASSWORD_BCRYPT);
 
     // Insert the username, hashed password, and salt into the database
-    $sql = "INSERT INTO users (username, password, id) VALUES (?, ?, ?)";
+    $sql = "INSERT INTO user_database (username, password, id) VALUES (?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sss", $username, $hashed_password, $id);
 
