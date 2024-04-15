@@ -20,7 +20,7 @@
             die("Connection failed: " . $conn->connect_error);
         }
     
-        $sql = "UPDATE user_database SET name='$name', contact='$contact' WHERE email='$email'";
+        $sql = "UPDATE user_database SET name='$name', contact='$contact' ,email='$email'";
     
         if ($conn->query($sql) === TRUE) {
             echo "Profile updated successfully!";
